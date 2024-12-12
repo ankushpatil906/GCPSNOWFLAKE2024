@@ -1,13 +1,13 @@
 from snowutils import SnowflakeConnector
 
 # Snowflake connection details
-account = "VUQXEMB-UB05841"
-user = "ANKUSHPATIL"  # Ensure no leading/trailing whitespace
-password = "Ankush@1234"
-database = "SNOWFLAKE_SAMPLE_DATA"
-schema = "TPCH_SF1"
-role = "ACCOUNTADMIN"
-warehouse = "COMPUTE_WH"
+account = "xxxxxxxxxxx"
+user = "xxxxx"  # Ensure no leading/trailing whitespace
+password = "xxxxxxxx"
+database = "xxxxxxxxxxx"
+schema = "xxxxxxxxx"
+role = "xxxxxxxxxxxxx"
+warehouse = "xxxxxxxxxxx"
 
 # Initialize and connect
 sf_connector = SnowflakeConnector(
